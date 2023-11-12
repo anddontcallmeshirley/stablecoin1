@@ -1,6 +1,6 @@
 # Bitcoin-Backed-Stablecoin
 
-This repository contains the code for a Rust project based on the fortune cookie example by Encode ([Fortune Cookie Example](https://dfinityorg.notion.site/ckBTC-example-Encode-Hackathon-0aaf6292e3404dabb49df5d1b5abc797), [YouTube Link](https://www.youtube.com/watch?v=t9DmBFj-3OA)). The goal of this project is to translate the Motoko code into Rust, with additional modifications to implement an HTTPS outcall to retrieve the BTC price and mint new tokens. We also use Encode's workshop on Rust canisters in order to structure the project ([Workshop Link](https://www.youtube.com/watch?v=2IPugAxbfXo&t=2s)).
+This repository contains a copy of the code for a Rust project based on the fortune cookie example by Encode ([Fortune Cookie Example](https://dfinityorg.notion.site/ckBTC-example-Encode-Hackathon-0aaf6292e3404dabb49df5d1b5abc797), [YouTube Link](https://www.youtube.com/watch?v=t9DmBFj-3OA)). The goal of this project is to translate the Motoko code into Rust, with additional modifications to implement an HTTPS outcall to retrieve the BTC price and mint new tokens. We also use Encode's workshop on Rust canisters in order to structure the project ([Workshop Link](https://www.youtube.com/watch?v=2IPugAxbfXo&t=2s)).
 
 ## Installation
 
