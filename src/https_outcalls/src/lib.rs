@@ -15,7 +15,7 @@ async fn get_btc_usd_exchange() -> String {
     let start_timestamp: Timestamp = 1682978460; //May 1, 2023 22:01:00 GMT
     let seconds_of_time: u64 = 60; //we start with 60 seconds
     let host = "api.pro.coinbase.com";
-    let url = format!("https://{host}/products/BTC-USD/candles?start={start_timestamp}&end={start_timestamp}&granularity={seconds_of_time}");
+ //   let url = format!("https://{host}/products/BTC-USD/candles?start={start_timestamp}&end={start_timestamp}&granularity={seconds_of_time}");
     let url = format!(
         "https://{}/products/BTC-USD/candles?start={}&end={}&granularity={}",
         host,
